@@ -20,25 +20,35 @@ jobs:
       - name: Small speach
         run: |
           sleep 10
+          echo -e "I see no better way to say goodbye, than making and Github Action for it "
+          sleep 2
           echo -e "It's been awesome to work with you both"
           sleep 2
           echo -e "You will both be missed wery much!!!!!!"
           sleep 2
           echo -e "Not because your awesome people."
           sleep 2
-          echo -e "But who the hell do you expect to cleanup our DevOps mess???"
+          echo -e "But who the hell do you expect to cleanup our DevOps mess??? 💩"
           sleep 2
-          echo -e "Kush?"
+          echo -e "🙈 Kush?"
           sleep 2
-          echo -e "Matt??"
+          echo -e "🙉 Matt??"
           sleep 2
-          echo -e "Assem???"
+          echo -e "🙊 Assem???"
           sleep 2
           echo -e "Sure as hell it's not going to be me 😆"
           sleep 2
           echo -e "😏 ( Looking at Bjørn )"
           sleep 2
           echo -e "😏 ( Looking at Bjørn )"
+          sleep 2
+          echo -e "But yes, we will miss you both because your both awesome 😎"
+          sleep 2
+          echo -e "You have both helped this team so much"
+          sleep 2
+          echo -e "🎄 I hope you both have a nice xmas and a happy new year.🍾"
+          sleep 2
+          echo -e "Wish you both best of luch and hope you both find some cool new projects to work on. 🚀"
           sleep 10
   Song:
     needs: [Goodbye]
@@ -56,7 +66,7 @@ jobs:
           sleep 2
           echo -e "You wouldn't get this from any other guy"
           sleep 2
-          echo -e "\n"
+          echo -e " "
           sleep 2
           echo -e "I just wanna tell you how I'm feeling"
           sleep 2
@@ -72,11 +82,34 @@ jobs:
           sleep 2
           echo -e "Never gonna make you cry"
           sleep 2
-          echo -e "I am gonna say goodbye"
+          echo -e "I am gonna say goodbye 😭"
           sleep 2
           echo -e "Never gonna tell a lie and hurt you"
           sleep 2
-          echo -e "\n"
+          echo -e " "
           sleep 2
           echo -e "(ﾉಥ益ಥ）ﾉ ┻━┻"
-          sleep 20
+          echo -e " "
+          sleep 2
+          echo -e " "
+          sleep 2
+          echo -e " "
+          sleep 2
+          echo -e " "
+          sleep 2
+          echo -e " "
+          sleep 2
+          echo -e " "
+          sleep 2
+          echo -e " "
+          sleep 2
+          echo -e " "
+          sleep 2
+          echo -e " "
+          sleep 2
+          echo -e " "
+          sleep 2
+          echo -e " "
+          sleep 2
+          echo -e " "
+          sleep 2
