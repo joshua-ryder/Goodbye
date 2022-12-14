@@ -21,59 +21,62 @@ jobs:
         run: |
           sleep 10
           echo -e "It's been awesome to work with you both"
-          sleep 1
+          sleep 2
           echo -e "You will both be missed wery much!!!!!!"
-          sleep 1
+          sleep 2
           echo -e "Not because your awesome people."
-          sleep 1
+          sleep 2
           echo -e "But who the hell do you expect to cleanup our DevOps mess???"
-          sleep 1
+          sleep 2
           echo -e "Kush?"
-          sleep 1
+          sleep 2
           echo -e "Matt??"
-          sleep 1
+          sleep 2
           echo -e "Assem???"
-          sleep 1
-          echo -e "Sure as hell not going to be me ツ"
-          sleep 1
-          echo -e "Sure as hell not going to be me O_o"
+          sleep 2
+          echo -e "Sure as hell it's not going to be me 😆"
+          sleep 2
+          echo -e "😏 ( Looking at Bjørn )"
+          sleep 2
+          echo -e "😏 ( Looking at Bjørn )"
           sleep 10
   Song:
+    needs: [Goodbye]
     runs-on: ubuntu-latest
     steps:
       # Runs a set of commands using the runners shell
-      - name: Song
+      - name: Song 🎤
         run: |
           sleep 10
           echo -e "We're no strangers to love"
-          sleep 1
+          sleep 2
           echo -e "You know the rules and so do I (do I)"
-          sleep 1
+          sleep 2
           echo -e "A full commitment's what I'm thinking of"
-          sleep 1
+          sleep 2
           echo -e "You wouldn't get this from any other guy"
-          sleep 1
+          sleep 2
           echo -e "\n"
-          sleep 1
+          sleep 2
           echo -e "I just wanna tell you how I'm feeling"
-          sleep 1
+          sleep 2
           echo -e "Gotta make you understand"
-          sleep 1
-          echo -e "\n"
-          sleep 1
+          sleep 2
+          echo -e " "
+          sleep 2
           echo -e "Never gonna give you up"
-          sleep 1
+          sleep 2
           echo -e "Never gonna let you down"
-          sleep 1
+          sleep 2
           echo -e "Never gonna run around and desert you"
-          sleep 1
+          sleep 2
           echo -e "Never gonna make you cry"
-          sleep 1
+          sleep 2
           echo -e "I am gonna say goodbye"
-          sleep 1
+          sleep 2
           echo -e "Never gonna tell a lie and hurt you"
-          sleep 1
+          sleep 2
           echo -e "\n"
-          sleep 1
+          sleep 2
           echo -e "(ﾉಥ益ಥ）ﾉ ┻━┻"
           sleep 20
