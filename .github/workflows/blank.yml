@@ -1,0 +1,41 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Goodbye
+
+# Controls when the workflow will run
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo We are going to to miss you 
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo We're no strangers to love
+          echo You know the rules and so do I (do I)
+          echo A full commitment's what I'm thinking of
+          echo You wouldn't get this from any other guy
+          echo 
+          echo I just wanna tell you how I'm feeling
+          echo Gotta make you understand
+          echo 
+          echo Never gonna give you up
+          echo Never gonna let you down
+          echo Never gonna run around and desert you
+          echo Never gonna make you cry
+          echo Never gonna say goodbye
+          echo Never gonna tell a lie and hurt you
+          echo
+          echo (ﾉಥ益ಥ）ﾉ ┻━┻
